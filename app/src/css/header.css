@@ -1,0 +1,24 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.header
+{
+  /*border: 1px solid red;*/
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.header svg
+{
+	color: black;
+	width: 35px;
+	height: 35px;
+}

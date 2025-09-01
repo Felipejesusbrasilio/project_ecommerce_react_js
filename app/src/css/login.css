@@ -1,0 +1,86 @@
+.divLogin
+{
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 30%;
+	height: 0%;
+	margin: 0 auto;
+	background-color: black;
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.divLogin .close-div
+{
+	margin: 10px;
+}
+
+
+.divLogin .close-div svg
+{
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+	color: white;
+}
+
+
+.divLogin form 
+{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.divLogin form p 
+{
+	color: white;
+}
+
+.divLogin h1
+{
+	color: white;
+}
+
+.divLogin form input 
+{
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.divLogin form button 
+{
+	border-style: none;
+	width: 100%;
+	height: 50px;
+	background-color: lightgreen;
+	border-radius: 10px;
+	color: white;
+}
+
+
+.close-div
+{
+	width: 100%;
+	height: 80px;
+}
+
+.ativado
+{
+	visibility: visible;
+	height: 100%;
+	transition: 0.3s;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+	.divLogin
+	{
+		width: 80%;
+	}
+}

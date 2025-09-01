@@ -1,0 +1,71 @@
+.produtos
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.produtos .items 
+{
+	/*border: 1px solid black;*/
+	width: 30%;
+	height: auto;
+	padding: 10px;
+}
+
+.produtos .items ul
+{
+	/*border: 1px solid black;*/
+	padding: 0;
+}
+
+.produtos .items ul li 
+{
+	/*border: 1px solid black;*/
+	list-style: none;
+	width: 100%;
+	height: auto;
+	display: grid;
+	place-items: center;
+	background-color: lightgrey;
+	color: black;
+	padding: 5px;
+}
+
+.produtos .items ul li:hover 
+{
+	background-color: black;
+	color: white;
+}
+
+.produtos .items button
+{
+	border-style: none;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+}
+
+@media only screen and (max-width: 600px)
+{
+
+.produtos
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.produtos .items
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: auto;
+}
+
+}
